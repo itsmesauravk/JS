@@ -13,3 +13,11 @@ setInterval(() =>{
     },1000
 )
 // this above function logs out 1 in each 1000mili seconds
+let timer = setInterval(() =>{
+    let count = 0
+    count++
+    console.log(count)
+    },1000
+)
+clearInterval(timer)
+//this is used to stop interval
