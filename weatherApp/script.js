@@ -1,16 +1,13 @@
-const url = 'https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?city=Seattle';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-		'X-RapidAPI-Host': 'air-quality-by-api-ninjas.p.rapidapi.com'
-	}
-};
+let p = fetch("https://api.openweathermap.org/data/2.5/weather?lat=27.7172&lon=85.3240&appid=0d65086abc5d836d07390a4987b6b7a1")
+.then((response) =>{
+	return response.json()
+	
+}).then((result) =>{
+	// console.log(result)
+	// console.log(result.name)
+	console.log(result.main.temp)
+})
 
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
+console.log(typeof(p))
+const temp = document.getElementById("tempr")
+temp.textContent = p
