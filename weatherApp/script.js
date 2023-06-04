@@ -5,7 +5,7 @@ let p = fetch("https://api.openweathermap.org/data/2.5/weather?lat=27.7172&lon=8
 }).then((result) =>{
 	// console.log(result)
 	// console.log(result.name)
-	console.log(result.main.temp)
+	return result
 })
 
 console.log(typeof(p))
