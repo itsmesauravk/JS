@@ -11,5 +11,12 @@ rslt = numbrs[1][1] //to logout the value 'x'
 rslt = numbrs[1][0][1]  //to logout the value 5
 
 let list = ['app', 'website']
-list.push(['game','music'])  //it add every thing inside () so result will be [ 'app', 'website', [ 'game', 'music' ] ]
+list.push(['game','music'])  //it add every thing inside () so result will be ['app','website',['game','music']]
 
+list.pop() // this will remove the the last data from the array in above eg. it will remove ['game','music']
+
+let num = [1,2,3]
+num.shift() //it remove the first data from the array, so the result will be [2,3]
+
+num.unshift(1) //it adds the data in the begining of the array, so the result will be [1,2,3]
+// console.log(num)

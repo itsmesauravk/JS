@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather application</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="tempr"></div>
-    <p class="maxtemp"></p>
-    <p class="mintemp"></p>
+    <div class="main">
+        <div class="nav">
+            <i class="fa-solid fa-plus"></i>
+            <div class="name">Example</div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="temp">
+            <div class="deg">10</div>
+            <div class="cloud">Cloudy</div>
+            <div class="maxtemp">20</div>
+            <div class="mintemp">01</div>
+        </div>
+        <div class="more">
+            <div class="sunrise"></div>   
+            <div class="sunset"></div>   
+            <div class="wind">
+                <div class="speed"></div>
+                <div class="deg"></div>
+            </div>
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
