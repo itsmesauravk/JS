@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .main{
+            padding: 15rem;
+        }
+        #result{
+            border: none;
+            background-color: cornflowerblue;
+            border-radius: 8px;
+            padding: 10px;
+            margin-top: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #start{
+            margin-top: 1rem;
+            padding: 10px;
+            background-color: blueviolet;
+            border-radius: 8px;
+        }
+        input{
+            padding-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <label for="">Enter the length of password you want to generate:</label>
+        <input id="passlength" type="number" required autofocus>
+        <button id="start">Generate</button>
+        <div id="result">Password will display here ..</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
