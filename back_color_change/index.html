@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            height: 100vh;
+            background-color: lavenderblush;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: rgba(255, 0, 0, 0.2);
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        button {
+            font-size: 19px;
+            width: 120px;
+            height: 50px;
+            border: none;
+            background-color:lightsalmon;
+            border-radius: 6px;
+        }
+        button:hover{
+            font-size: 20.5px;
+            border: 2px solid black;
+        }
+        .inputes{
+            display: flex;
+            gap: 10px;
+        }
+        input{
+            height: 50px;
+            width: 60px;
+            font-size: 22px;
+            padding-left: 4px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="inputes">
+                <input id="value1" type="number" required autofocus> 
+                <input id="value2" type="number" required>
+                <input id="value3" type="number" required>
+            </div>
+            <div class="text">Your result goes here..</div>
+            <button id="btn">-SHOW-</button>
+            <button id="rst">-RESET-</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
