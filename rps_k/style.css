@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Bungee Spice', cursive;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            height: 100vh;
+            align-items: center;
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3rem;
+            gap: 4rem;
+            width: 900px;
+            height: 150px;
+        }
+        button{
+            width: 200px;
+            height: 80px;
+            font-size: 25px;
+            border-radius: 8px;
+            border:none;
+            background-color:white;
+        }
+        button:hover{
+            /* border: 3px solid rgb(207, 62, 33); */
+            font-weight: 500;
+        }
+        #dis{
+            display: flex;
+            font-size: 90px;
+            margin-top: 4rem;
+            border-radius: 8px;
+            box-shadow: 2px 2px 4px #555;
+            width: 800px;
+            align-self: center;
+            justify-content: center;
+        }
+        #choices{
+            margin-top: 5rem;
+            font-size: 40px;
+        }
+        .score{
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        .defult{
+            margin-top: 2rem;
+            font-size: 2rem;
+            display: flex ;  
+        }
+        #total{
+            margin-top: 1rem;
+        }
+        .border:hover{
+            border: 2px solid rgb(207, 62, 33);
+            padding: 3px;
+            border-radius: 8px;
+        }
