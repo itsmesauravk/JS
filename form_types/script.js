@@ -23,3 +23,6 @@ const store = () =>{
 btn.addEventListener('click',()=>{
     store()
 })
+
+
+
