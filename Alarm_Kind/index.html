@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Sample ----</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="alrm">
+            <div class="nowtime">09:35 AM</div>
+            <div class="endTime">20:23</div>
+            <div class="setTime">
+                <button id="setTime">Set Time</button>
+            </div>
+            <div class="countdown">
+                Set a new alarm..
+            </div>
+            <div class="canclebtn">
+                <button id="cancel">Cancel</button>
+            </div>
+        </div>
+        <!-- <div class="missed">
+            <p>You have missed your Alarm !!! </p>
+            <button id="okay">Okay</button>
+        </div> -->
+        <div class="setAlarm">
+            <form>
+                <label for="">Date:</label>
+                <input id="date" type="number" required autofocus>
+                <label  for="">Hour:</label>
+                <input id="hour" type="number" required>
+                <label for="">Min:</label>
+                <input id="min" type="number" required>
+            </form>
+            <div class="strtbtn">
+                <button id="setVlaue">Set Alarm</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
