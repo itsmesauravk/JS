@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+            background-color: black;
+        }
+        img{
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            border: 1px solid white;
+            
+        }
+        button{
+            background-color: coral;
+            border-radius: 10px;
+            height: 60px;
+            width: 100px;
+            border: none;
+            margin-top: 1rem;
+        }
+        button:hover{
+            background-color: green;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Cat images</h1>
+        <div id="img"></div>
+    
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
