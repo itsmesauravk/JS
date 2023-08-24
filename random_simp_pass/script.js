@@ -12,7 +12,6 @@ function password(len){
 }
 start.addEventListener("click",()=>{
     let long = document.querySelector("#passlength").value
-    console.log(long)
     password(long)
 })
 
