@@ -1,0 +1,194 @@
+@import url('https://fonts.cdnfonts.com/css/billabong');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    /* background-color: blueviolet; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .logo {
+    font-size: 28px;
+    padding-left: 8px;
+    font-family: 'Billabong', sans-serif;
+}
+header .notification {
+    padding-right: 18px;
+    display: flex;
+    gap: 25px;
+}
+i {
+    font-size:22px ;
+}
+.story {
+    /* background-color: red; */
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #333;
+}
+.story .p {
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.story> .p > .frame {
+    border: 1px solid #333;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.story> .p > .my{
+    border: none;
+}
+.story> .p > .frame> img {
+    margin-top: 3px;
+    margin-left: 2.5px;
+    padding: 3px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    /* background-color: yellowgreen; */
+}
+.story .p > .idname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+    height: 19px;
+    width: 62px;
+    /* background-color: aquamarine; */
+}
+.post {
+    height: 487px;
+}
+.post .personalinfo {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 12px;
+}
+.pi {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.pi img {
+    height:28px;
+    width: 28px;
+    border-radius:50%;
+}
+.pi .name {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.post .imgMain {
+    height: 325px;
+}
+.imgMain img {
+    width: 100%;
+    height: 325px;
+}
+
+.post .react {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 12px;
+}
+.reacttype {
+    display: flex;
+    gap: 10px;
+}
+.slider {
+    margin-left: -60px;
+}
+
+.post > .review {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+.review img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.i2 {
+    margin-left: -6px;
+}
+.peoples {
+    margin-left:8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.post > .status{
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding-left: 8px;
+    font-weight: 400;
+}
+.post .comment{
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+.comment img {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    margin-left:8px;
+}
+.comment .addcomment {
+    margin-left: 8px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.post > .time{
+    height: 18px;
+    font-size: 11px;
+    padding-left: 8px;
+    font-weight: 300;
+}
+
+footer {
+    height: 50px;
+    border-top: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer img {
+    background-color: darkcyan;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
