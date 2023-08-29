@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header {
+    height: 70vh;
+    background-color: #fbeec1;
+    background-image: url(./images/golden_temple.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover {
+    color: #008000;
+    text-shadow: 0.5px 0.5px 1px #333;
+}
+/* header */
+header {
+    position: relative;
+    padding: 0.2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .home {
+    color: #008000;
+    border-bottom: 2px solid green;
+}
+.navbar .logo a {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar a {
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .bars {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.bars i:hover {
+    color: green;
+}
+.action_btn {
+    background-color: #8d8741;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.action_btn:hover{
+    box-shadow: 1px 1px 2px #333;
+}
+.action_btn:active {
+    scale:0.95;
+}
+.texts {
+    padding-top: 345px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.texts #changing {
+    font-size: 45px;
+    font-weight: bold;
+    color:lavenderblush;
+    text-shadow: 2px 2px 3px #333;
+}
+
+/* dropdown menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow:hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown.open{
+    height: 240px;
+}
+.dropdown li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width:999px){
+    .navbar a {
+        font-size: 28px;
+    }
+    .texts #changing{
+        font-size: 35px;
+    }
+}
+@media (max-width:771px){
+    .texts {
+        padding-top: 300px;
+    }
+}
+@media (max-width:669px) {
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+    .navbar .bars {
+        display: block;
+    }
+    .dropdown {
+        display: block;
+        left: 2rem;
+        width: unset;
+    }
+    .dropdown a {
+        font-size: 20px;
+    }
+}
+@media (max-width:455px){
+    .cards .image {
+        width: 370px;
+    }
+    .texts {
+        padding-top: 280px;
+    }
+}
