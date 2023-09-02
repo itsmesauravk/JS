@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search btn</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .search-box {
+            margin-top: 10rem;
+            font-size: 2rem;
+            background-color: aqua;
+            width: 400px;
+            height: auto;
+        }
+        .typeT {
+            width: 60%;
+            height: 50px;
+            font-size: 30px;
+            display: none;
+            float: left;
+        }
+        .search-btn {
+            width: 30%;
+            position: relative;
+            float: right;
+            background-color:white;
+        }
+        #iconEl {
+            padding-left: 40px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        #xicon {
+            position: absolute;
+            top: 2px;
+            left: 5px;
+            display: none;
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="search-box">
+        <input class="typeT" type="text" placeholder="Search here .."  autofocus>
+        <label for="" class="search-btn">
+            <i id="iconEL" class="fa-solid fa-magnifying-glass"></i>
+            <i id='xicon' class='fa-solid fa-xmark'></i>
+        </label>
+    </div>
+
+
+    <script>
+        const typeT = document.querySelector(".typeT")
+        const icon = document.querySelector("#iconEL")
+        const searchBtn = document.querySelector(".search-btn")
+        const xIcon = document.querySelector("#xicon")
+
+        icon.addEventListener("click",() => {
+            icon.innerHTML="<i id='xicon' <i class='fa-solid fa-xmark'></i>"
+            typeT.style.display = "flex"
+            xIcon.style.display = "flex"
+            icon.style.display = "none"
+        })
+        xIcon.addEventListener("click",() => {
+            icon.innerHTML="<i id='xicon' <i class='fa-solid fa-magnifying-glass'></i>"
+            typeT.style.display = "none"
+            xIcon.style.display = "none"
+            icon.style.display = "flex"
+        })
+        typeT.addEventListener("keypress",()=>{
+            if (event.key === "Enter"){
+                console.log(typeT.value)
+                typeT.value = ''
+            }
+        })
+    </script>
+</body>
+</html>
