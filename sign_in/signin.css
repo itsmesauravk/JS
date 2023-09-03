@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimg {
+    display: flex;
+    justify-content: center;
+    background-image: url(bgimg.jfif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+form {
+    margin-top: 3rem;
+    background-color: white;
+    padding: 20px 20px;
+    height: 1020px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #333;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 40px;
+    padding-left: 30%;
+    font-weight: bold;
+    color: #008000;
+}
+
+form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+}
+.personalinfo, .dob, .address, .num, .user, .password, .submit, .message, .home{
+    margin-top: 20px;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+label > span {
+    color: red;
+}
+.message {
+    font-size: 22px;
+    color: #008000;
+    font-weight: 600;
+}
+button {
+    padding: 16px 22px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+    transition: ease-in-out 0.5s;
+}
+button:hover {
+    background-color: #008000;
+    color: antiquewhite;
+}
+.home {
+    border: 1px solid grey;
+    padding: 10px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 360px;
+}
+.home:hover{
+    background-color: #008000;
+    color: antiquewhite;
+}

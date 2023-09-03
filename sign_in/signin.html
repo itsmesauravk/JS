@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_in form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="bgimg">
+        <form>
+            <div class="title">
+                <span>Sign-up</span>
+            </div>
+            <div class="personalinfo">
+                <div class="name">
+                    <label>Full Name <span> *</span> </label>
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="dob">
+                    <label>Date of Birth <span> *</span> </label>
+                    <select name="date">
+                        <option value="date">01</option>
+                        <option value="date">02</option>
+                        <option value="date">03</option>
+                        <option value="date">04</option>
+                        <option value="date">05</option>
+                        <option value="date">06</option>
+                        <option value="date">07</option>
+                        <option value="date">08</option>
+                        <option value="date">09</option>
+                    </select>
+                    <select name="Month">
+                        <option value="mnth">Jan</option>
+                        <option value="mnth">Feb</option>
+                        <option value="mnth">Mar</option>
+                        <option value="mnth">Api</option>
+                        <option value="mnth">May</option>
+                        <option value="mnth">Jun</option>
+                        <option value="mnth">Jul</option>
+                        <option value="mnth">Aug</option>
+                        <option value="mnth">Sept</option>
+                        <option value="mnth">Oct</option>
+                        <option value="mnth">Nov</option>
+                        <option value="mnth">Dec</option>
+                    </select>
+                    <select name="year">
+                        <option value="Year">1998</option>
+                        <option value="Year">1999</option>
+                        <option value="Year">2000</option>
+                        <option value="Year">2001</option>
+                        <option value="Year">2002</option>
+                        <option value="Year">2003</option>
+                        <option value="Year">2004</option>
+                        <option value="Year">2005</option>
+                        <option value="Year">2006</option>
+                        <option value="Year">2007</option>
+                    </select>
+                </div>
+                <div class="paddress address">
+                    <label for="address">Permanent Address <span> *</span> </label>
+                    <input type="text" placeholder="Address.." required>
+                </div>
+                <div class="taddress address">
+                    <label for="address">Temperory Address</label>
+                    <input type="text" placeholder="Address..">
+                </div>
+                <div class="phone num">
+                    <label for="number">Phone Number <span> *</span></label>
+                    <input type="number" placeholder="eg. 9812345670" required>
+                </div>
+                <div class="telephone num">
+                    <label for="number">Telephone Number</label>
+                    <input type="number" placeholder="eg. 0123456">
+                </div>
+            </div>
+            <div class="user">
+                <div class="uname">
+                    <label for="name">Username <span> *</span></label>
+                    <input type="text" placeholder="eg. example@gmail.com" required>
+                </div>
+                <div class="newp password">
+                    <label for="password">New Password <span> *</span></label>
+                    <input type="password" required>
+                </div>
+                <div class="rep password">
+                    <label for="password">Re-enter Password <span> *</span></label>
+                    <input type="password" required>
+                </div>
+            </div>
+            <div class="message"></div>
+            <div class="submit">
+                <button onclick="disp()">Submit</button>
+            </div>
+            <div class="home">Back to home</div>
+        </form>
+    </div>
+
+<script>
+    let messageEl = document.querySelector(".message")
+    
+    function disp() {
+        messageEl.textContent = "Sucessfully created a new account ✅"
+    }
+
+</script>
+</body>
+</html>
