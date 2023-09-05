@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* body */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+.hlp {
+    width: 500px;
+    height: 300px;
+    box-shadow: 1px 1px 2px gray;
+    text-align: justify;
+    padding-top: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: bisque;
+    transition:ease-in 0.4s;
+}
+.ans {
+    padding-top: 1rem;
+    font-size: 19px
+}
+.hlp:hover {
+    box-shadow: 3px 3px 5px gray;
+}
+.btn {
+    margin-top: 20px;
+}
+a {
+    font-size: 30px;
+    font-style: italic;
+}
