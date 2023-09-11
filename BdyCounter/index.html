@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown-timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- for intro -->
+        <div class="card0">
+            <h1>Welcome Senior</h1>
+            <p id="datas">Disclaimer: <br>
+                <span class="spans">
+                    The information contained in this website is for general information purposes only. The information is provided by bithday Countdown-timer and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+                </span>
+            </p><br><br>
+            <p>About this app: <br> 
+                <span class="spans">
+                    This app is created for entertainment purpose.<br>
+                    Created by :<span class="boldy">Saurav Karki</span> <br>
+                    Last updated on<span class="boldy"> Sun Sep 10 02:32 AM</span> 
+                </span>
+            </p>
+
+            <button id="continue">Continue</button>
+        </div>
+        <!-- for user input -->
+        <div class="card1">
+            <p> Enter the details :</p>
+            <!-- for name -->
+            <label for="">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <!-- for date -->
+            <label for="">Date</label>
+            <select id="date" name="date">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <!-- for month -->
+            <label for="">Month</label>
+            <select name="month" id="month">
+                <option value="JAN">JAN</option>
+                <option value="FEB">FEB</option>
+                <option value="MAR">MAR</option>
+                <option value="APR">APR</option>
+                <option value="MAY">MAY</option>
+                <option value="JUN">JUN</option>
+                <option value="JUL">JUL</option>
+                <option value="AUG">AUG</option>
+                <option value="SEP">SEP</option>
+                <option value="OCT">OCT</option>
+                <option value="NOV">NOV</option>
+                <option value="DEC">DEC</option>
+                <!-- <option value="DEC">DEC</option> -->
+            </select>
+            <!-- for year -->
+            <label for="">Year</label>
+            <select id="year" name="year">
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+                <option value="2033">2033</option>
+                <option value="2034">2034</option>
+                <option value="2035">2035</option>
+                <option value="2036">2036</option>
+                <option value="2037">2037</option>
+                <option value="2038">2038</option>
+                <option value="2039">2039</option>
+                <option value="2040">2040</option>
+                <option value="2041">2041</option>
+                <option value="2042">2042</option>
+                <option value="2043">2043</option>
+                <option value="2044">2044</option>
+                <option value="2045">2045</option>
+                <option value="2046">2046</option>
+                <option value="2047">2047</option>
+                <option value="2048">2048</option>
+                <option value="2049">2049</option>
+                <option value="2050">2050</option>
+            </select>
+            <!-- time hour -->
+            <label for="">Time(hour)</label>
+            <select id="timeHour" name="timeHour">
+                <option value="00">12</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+            <!-- time minute -->
+            <label for="">Time(minute)</label>
+            <select id="timeMinute" name="timeMinute">
+                <option value="00">00</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+                <option value="52">52</option>
+                <option value="53">53</option>
+                <option value="54">54</option>
+                <option value="55">55</option>
+                <option value="56">56</option>
+                <option value="57">57</option>
+                <option value="58">58</option>
+                <option value="59">59</option>
+            </select>
+            <!-- AM or PM -->
+            <label for="">AM/PM</label>
+            <select name="ampm" id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+
+            <!-- submit button -->
+            <button id="submit">Submit details</button>
+
+        </div>
+
+        <!-- for data display -->
+        <div class="card2">
+            <div class="title">
+                Birthday countdown ❤️
+            </div>
+            <span>For</span>
+            <div class="endtime" id="end-time">23 MAY 2023 01:00 PM</div>
+            <div class="inputs">
+                <div class="day time">
+                    <input class="dataDis" type="text" readonly value="0">
+                    <label for="">Days</label>
+                </div> 
+                <div class="hr time">
+                    <input class="dataDis" type="text" readonly value="0">
+                    <label for="">Hours</label>
+                </div> 
+                <div class="min time">
+                    <input class="dataDis" type="text" readonly value="0">
+                    <label for="">Minutes</label>
+                </div> 
+                <div class="sec time">
+                    <input class="dataDis" type="text" readonly value="0">
+                    <label for="">Seconds</label>
+                </div> 
+            </div>
+            <span id>Remaning</span>
+            <button id="gift">Get 🎁</button>
+            <button id="changeD">Change Date</button>
+        </div>
+
+        <!-- for final msg -->
+        <div class="card3">
+            <p id="wish">WIshing goes here ..</p>
+            <div class="buttonss">
+                <h2>Small present from us.</h2>
+                <button id="scanqr" class="giftss">Scan QR</button>
+                <button id="watchv" class="giftss">Watch</button>
+            </div>
+            <button id="backkk" class="giftss">Return</button>
+        </div>
+        <div id="qrscan">
+            <img src="scanner.PNG" alt="qrcode">
+            <button id="backg" class="giftss">Back</button>
+        </div>
+        <div id="video">
+            <iframe width="900" height="450" src="https://www.youtube.com/embed/_z-1fTlSDF0?start=13" frameborder="0" allowfullscreen></iframe>
+            <button id="backg1" class="giftss">Back</button>
+        </div>            
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
