@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            animation: backgroundChange 10s linear infinite;
+
+        }
+        #hii{
+            margin-top: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 120px;
+            font-weight: bolder;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 200px;
+            width: 800px;
+            border-radius: 20px;
+            animation: backgroundChange 5s linear infinite,textColorChange 2s linear infinite;
+;
+            box-shadow: 4px 4px 6px gray;
+        }
+
+        @keyframes backgroundChange {
+            0% { background-color: rgba(255, 0, 0, 1); } /* Red */
+            14% { background-color: rgba(255, 165, 0, 1); } /* Orange */
+            28% { background-color: rgba(255, 255, 0, 1); } /* Yellow */
+            42% { background-color: rgba(0, 128, 0, 1); } /* Green */
+            57% { background-color: rgba(0, 0, 255, 1); } /* Blue */
+            71% { background-color: rgba(75, 0, 130, 1); } /* Indigo */
+            85% { background-color: rgba(128, 0, 128, 1); } /* Violet */
+            100% { background-color: rgba(255, 0, 0, 1); } /* Back to Red */
+        }
+        @keyframes textColorChange {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+    </style>
+    <title>We learn together....</title>
+</head>
+<body>
+    <div id="hii">
+        <p>Hello World</p>
+    </div>
+
+    <script src="cookie.js"></script>
+</body>
+</html>
