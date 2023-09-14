@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 29px;
+}
+
+/* ---display:bock */
+/* --> display block makes the object occupie whole width  and div have build in display block */
+
+#div1 {
+  display: block; /* defult for div */
+  background-color: red;
+}
+
+/* display:inline     */
+/* ---> occupie less space as possible */
+#span1 {
+  display: inline; /* defult for span */
+  background-color: yellow;
+  /* width and height doesnt matter in inline elemets; */
+}
+#div2 {
+  background-color: purple;
+}
+#span2 {
+  background-color: orange;
+}
+img {
+  display: inline-block; /* defult for images >>inline also and can have width & height*/
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* css pseudo elements */
+/* ::before ::after */
+/* for thos who have content inside and not self closing */
+
+#card1 {
+  margin-top: 2rem;
+}
+
+.labell::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+.labell::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+}
+
+::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 40px;
+}
+.check.hover {
+  display: none;
+  background-color: yellow;
+}
+.check:hover::before {
+  content: "Hello World";
+  display: block;
+}
+/* --------------------------------------------------------------------------------------- */
+/* css position */
+/* default position is static */
+.parent {
+  /* position: relative; */
+  background-color: blue;
+  padding: 1.5rem;
+}
+.child-one {
+  background-color: purple;
+  position: relative; /* relative position make div float >>   */
+  left: 20px;
+}
+.child-two {
+  background-color: green;
+  position: absolute; /* it pretend like that it never exist and give its space to other down below   */
+  /* top: 10px; */
+}
+.child-three {
+  background-color: red;
+  position: fixed; /* stay fixed to its position where given and doesnot move while scroll*/
+  top: 0;
+  right: 0;
+}
+.child-four {
+  background-color: grey;
+  position: sticky; /*both relative + fixed  >> while scrolling fixed but by defult relative*/
+  bottom: 10px;
+}
