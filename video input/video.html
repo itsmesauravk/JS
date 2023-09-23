@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <div class="main">
+        <container class="titles">
+            <div class="brand">
+                <h1>TrailerZ</h1>
+            </div>
+            <div class="mode">
+                <h2>Mode</h2>
+                <button onclick="light()" class="light">Light</button>
+                <button onclick="dark()" class="dark">Dark</button>
+            </div>
+        </container>
+
+        <container class="trailer">
+            <div class="cards">
+                <h1 id="ttl">Jawan</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OEKNl5qKdDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="cards">
+                <h1 id="ttl">Fast X</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aOb15GVFZxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="cards">
+                <h1 id="ttl">Bloody Daddy</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZwOeTu6ciP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <div class="cards">
+                <h1 id="ttl">Transformer</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/itnqEauWQZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <div class="cards">
+                <h1 id="ttl">Evil Dead: Raise</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/itnqEauWQZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <div class="cards">
+                <h1 id="ttl">Extration 2</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mO0OuR26IZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <div class="cards">
+                <h1 id="ttl">The Flash</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/r51cYVZWKdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </container>
+    
+</body>
+
+
+<script>
+    let lightEL = document.querySelector(".light")
+    let darkEL = document.querySelector(".dark")
+    let mainEL = document.querySelector(".main")
+    function light() {
+        mainEL.style.backgroundColor = "white";
+        mainEL.style.color = "black";
+
+    }
+    function dark() {
+        mainEL.style.backgroundColor = "black";
+        mainEL.style.color = "white";
+        
+    }
+</script>
+</html>

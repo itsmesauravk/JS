@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-family: 'Poppins', sans-serif;
+    /* align-items: center; */
+}
+.titles {
+    display: flex;
+    justify-content: space-between;
+    background-color: #917FB3;
+    border-bottom: 3px solid black;
+}
+.titles h1 {
+    padding: 10px 7px;
+    font-family:sans-serif;
+    color: #850000;
+}
+.titles .mode {
+    width: 110px;
+    height: 70px;
+    background-color: #BFCCB5;
+    border-radius: 10px;           
+}
+.mode h2 {
+    color: #917FB3;
+    padding-left: 25px;
+}
+.mode button {
+    padding: 3px 5px;
+    margin: 3px 5px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-weight: bold;
+    border: none;  
+    box-shadow: 2px 2px 2px; 
+    cursor: pointer;
+}
+.light:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+.dark:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.trailer .cards{
+    border:2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding:5px 10px;
+}
+
