@@ -1,0 +1,16 @@
+
+
+[
+    {
+        "name":"comp1",
+        "numOfEmplooyee": 12340,
+        "ceo":"user1",
+        "rating":4.1
+    },
+    {
+        "name":"comp2",
+        "numOfEmplooyee": 1240,
+        "ceo":"user2",
+        "rating":4.4
+    }
+]
