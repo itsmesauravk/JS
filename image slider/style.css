@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-button:focus {
+  outline: none;
+}
+
+#prevBtn {
+  float: left;
+}
+
+#nextBtn {
+  float: right;
+}
