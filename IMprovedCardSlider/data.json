@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "Classic Sneakers",
+    "price": 75.99,
+    "rating": 4.5,
+    "image": "./images/classicSneakers.jpg",
+    "company": "Footwear Co.",
+    "description": "A pair of comfortable and stylish classic sneakers suitable for everyday wear."
+  },
+  {
+    "id": 1,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "rating": 4.2,
+    "image": "./images/running.jpeg",
+    "company": "Athletic Gear Inc.",
+    "description": "High-performance running shoes designed for athletes and fitness enthusiasts."
+  },
+  {
+    "id": 2,
+    "name": "Casual Loafers",
+    "price": 54.99,
+    "rating": 4.0,
+    "image": "./images/lofers.jpeg",
+    "company": "Fashion Footwear Ltd.",
+    "description": "Stylish and comfortable loafers perfect for casual occasions."
+  },
+  {
+    "id": 3,
+    "name": "Hiking Boots",
+    "price": 119.99,
+    "rating": 4.7,
+    "image": "./images/hikingBoots.jpeg",
+    "company": "Outdoor Adventure Gear",
+    "description": "Durable and waterproof hiking boots for outdoor adventures and trekking."
+  },
+  {
+    "id": 4,
+    "name": "High Heels",
+    "price": 89.99,
+    "rating": 4.4,
+    "image": "./images/hills.jpeg",
+    "company": "Elegant Footwear Boutique",
+    "description": "Elegant high heels suitable for formal events and special occasions."
+  }
+]
