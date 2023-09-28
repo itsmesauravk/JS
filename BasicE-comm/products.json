@@ -1,0 +1,251 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Classic Sneakers",
+      "price": 75.99,
+      "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/18274390/2022/5/14/c64644f6-840f-4496-bb42-19359e9881771652523841987RoadsterMenBrownTexturedPUSneakers1.jpg",
+      "brand": "Footwear Co.",
+      "ratings": 4.5,
+      "colors": ["White", "Black", "Blue"],
+      "description": "A pair of comfortable and stylish classic sneakers suitable for everyday wear."
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "price": 89.99,
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f9d52817f7524d3fb442af3b01717dfa_9366/Runfalcon_3_Cloudfoam_Low_Running_Shoes_Black_HQ3790_01_standard.jpg",
+      "brand": "Athletic Gear Inc.",
+      "ratings": 4.2,
+      "colors": ["Red", "Grey", "Blue"],
+      "description": "High-performance running shoes designed for athletes and fitness enthusiasts."
+    },
+    {
+      "id": 3,
+      "name": "Casual Slip-Ons",
+      "price": 54.99,
+      "image": "https://www.campusshoes.com/cdn/shop/files/NORTHPLUS_11G-677_BLK.jpg?v=1692983765",
+      "brand": "Fashion Footwear Ltd.",
+      "ratings": 4.0,
+      "colors": ["Brown", "Navy", "Grey"],
+      "description": "Stylish and comfortable slip-on shoes perfect for casual occasions."
+    },
+    {
+      "id": 4,
+      "name": "High-Top Sneakers",
+      "price": 89.99,
+      "image": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.webp?b=1&s=170667a&w=0&k=20&c=liUSgX6SafJ7HWvefFqR9-pnf3KuH6v1lwQ6iEpePWc=",
+      "brand": "Urban Style Co.",
+      "ratings": 4.3,
+      "colors": ["Black", "White", "Red"],
+      "description": "Fashionable high-top sneakers for a trendy streetwear look."
+    },
+    {
+      "id": 5,
+      "name": "Running Trail Shoes",
+      "price": 99.99,
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/674a5512-5671-45a2-8c2c-69b36d80d5ae/air-jordan-11-cmft-low-mens-shoes-Chz8HV.png",
+      "brand": "Outdoor Adventure Gear",
+      "ratings": 4.7,
+      "colors": ["Green", "Blue", "Grey"],
+      "description": "Trail running shoes designed for outdoor adventures and rough terrains."
+    },
+    {
+      "id": 6,
+      "name": "Leather Loafers",
+      "price": 69.99,
+      "image": "https://www.campusshoes.com/cdn/shop/products/FIRST_11G-787_BLK-MATTLIC.BLU.jpg?v=1670326503",
+      "brand": "Elegant Footwear Boutique",
+      "ratings": 4.4,
+      "colors": ["Brown", "Black", "Tan"],
+      "description": "Elegant leather loafers suitable for formal events and special occasions."
+    }
+  ],
+  "tshirts": [
+    {
+      "id": 1,
+      "name": "Cotton Crewneck T-Shirt",
+      "price": 19.99,
+      "image": "https://cdn11.bigcommerce.com/s-rxzabllq/images/stencil/1280x1280/products/1504/12422/1HT_AQUA-Plain-100-Cotton-Tshirt-Online__30618.1643763653.jpg?c=2",
+      "brand": "Casual Wear Co.",
+      "ratings": 4.0,
+      "colors": ["White", "Black", "Grey"],
+      "description": "A comfortable cotton crewneck t-shirt suitable for casual occasions."
+    },
+    {
+      "id": 2,
+      "name": "Graphic Print T-Shirt",
+      "price": 24.99,
+      "image": "https://muthahoodgoods.com/cdn/shop/products/220420_Muthahood_shot15_0713.jpg?v=1651587390&width=1080",
+      "brand": "StreetStyle Fashion",
+      "ratings": 4.5,
+      "colors": ["Black", "White", "Red"],
+      "description": "A stylish graphic print t-shirt for a trendy streetwear look."
+    },
+
+    {
+      "id": 3,
+      "name": "Striped Polo Shirt",
+      "price": 29.99,
+      "image": "https://thehouseofrare.com/cdn/shop/products/IMG_0053_5c650849-9d9d-4cc3-8863-6a23778cd9a0.jpg?v=1675170808",
+      "brand": "Preppy Style Inc.",
+      "ratings": 4.2,
+      "colors": ["Blue", "Green", "Red"],
+      "description": "A classic striped polo shirt for a preppy and sophisticated style."
+    },
+    {
+      "id": 4,
+      "name": "V-Neck Basic Tee",
+      "price": 18.99,
+      "image": "https://images.prismic.io/rushordertees-web/e225cda8-d94c-4f4a-8bef-d0ddbdd506a3_Performance+Shirts.jpg?auto=compress,format&rect=0,0,1600,1800&w=800&h=900",
+      "brand": "Everyday Essentials",
+      "ratings": 4.1,
+      "colors": ["White", "Black", "Grey"],
+      "description": "A versatile and comfortable V-neck basic tee for everyday wear."
+    },
+    {
+      "id": 5,
+      "name": "Vintage Logo T-Shirt",
+      "price": 21.99,
+      "image": "https://www.jiomart.com/images/product/original/rvowvf0akl/eyebogler-men-s-polo-neck-regular-fit-half-sleeves-colorblocked-teal-t-shirt-product-images-rvowvf0akl-0-202211051905.jpg?im=Resize=(500,630)",
+      "brand": "Retro Vibes Co.",
+      "ratings": 4.3,
+      "colors": ["Grey", "Blue", "Black"],
+      "description": "A vintage-style logo t-shirt that adds a retro touch to your look."
+    },
+    {
+      "id": 6,
+      "name": "Long Sleeve Henley",
+      "price": 26.99,
+      "image": "https://thehouseofrare.com/cdn/shop/products/IMG_0053_5c650849-9d9d-4cc3-8863-6a23778cd9a0.jpg?v=1675170808",
+      "brand": "Casual Comfort",
+      "ratings": 4.0,
+      "colors": ["Navy", "Grey", "Black"],
+      "description": "A comfortable long sleeve henley t-shirt for a laid-back style."
+    }
+  ],
+  "pants": [
+    {
+      "id": 1,
+      "name": "Slim Fit Jeans",
+      "price": 49.99,
+      "image": "https://www.instyle.com/thmb/Y_34SAoZT98INZNDzcMo4PL34r8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TID_EXCLUSIVE__HAI_728664-2000-a9424e0a48b24fe6a899857063e62842.jpg",
+      "brand": "Denim King",
+      "ratings": 4.3,
+      "colors": ["Blue", "Black", "Grey"],
+      "description": "Slim fit jeans for a modern and comfortable style."
+    },
+    {
+      "id": 2,
+      "name": "Cargo Pants",
+      "price": 39.99,
+      "image": "https://static-01.daraz.com.np/p/eb81f27ff9ab2b353e1ca96247468261.jpg",
+      "brand": "Outdoor Gear Co.",
+      "ratings": 4.2,
+      "colors": ["Green", "Khaki", "Black"],
+      "description": "Cargo pants with ample pocket space for outdoor activities."
+    },
+    {
+      "id": 3,
+      "name": "Chino Trousers",
+      "price": 34.99,
+      "image": "https://cdn.britannica.com/74/190774-050-52CE5745/jeans-denim-pants-clothing.jpg",
+      "brand": "Casual Chic",
+      "ratings": 4.0,
+      "colors": ["Beige", "Navy", "Grey"],
+      "description": "Versatile chino trousers suitable for both casual and semi-formal occasions."
+    },
+    {
+      "id": 4,
+      "name": "Yoga Leggings",
+      "price": 29.99,
+      "image": "https://static.zara.net/photos///2023/I/0/1/p/5520/007/800/18/w/1920/5520007800_2_1_1.jpg?ts=1691152825628",
+      "brand": "Active Lifestyle",
+      "ratings": 4.5,
+      "colors": ["Black", "Grey", "Purple"],
+      "description": "Comfortable and stretchy yoga leggings for your workout sessions."
+    },
+    {
+      "id": 5,
+      "name": "Cargo Shorts",
+      "price": 26.99,
+      "image": "https://static-01.daraz.com.np/p/eb81f27ff9ab2b353e1ca96247468261.jpg",
+      "brand": "Adventure Ready",
+      "ratings": 4.1,
+      "colors": ["Khaki", "Camouflage", "Black"],
+      "description": "Cargo shorts with multiple pockets for your outdoor adventures."
+    },
+    {
+      "id": 6,
+      "name": "Sweatpants",
+      "price": 24.99,
+      "image": "https://www.instyle.com/thmb/Y_34SAoZT98INZNDzcMo4PL34r8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TID_EXCLUSIVE__HAI_728664-2000-a9424e0a48b24fe6a899857063e62842.jpg",
+      "brand": "Casual Comfort",
+      "ratings": 4.2,
+      "colors": ["Black", "Grey", "Navy"],
+      "description": "Comfortable sweatpants for a relaxed and cozy fit."
+    }
+  ],
+  "jackets": [
+    {
+      "id": 1,
+      "name": "Waterproof Rain Jacket",
+      "price": 79.99,
+      "image": "https://manofmany.com/wp-content/uploads/2016/06/Untitled-design-14-.png",
+      "brand": "Adventure Gear Inc.",
+      "ratings": 4.6,
+      "colors": ["Blue", "Yellow", "Red"],
+      "description": "A waterproof rain jacket to keep you dry during outdoor adventures."
+    },
+    {
+      "id": 2,
+      "name": "Leather Biker Jacket",
+      "price": 129.99,
+      "image": "https://static-01.daraz.com.np/p/3c6727c1401c38c1baabc1e140d6d910.jpg",
+      "brand": "Biker Style Fashion",
+      "ratings": 4.8,
+      "colors": ["Black", "Brown", "Tan"],
+      "description": "A classic leather biker jacket for a rugged and stylish look."
+    },
+    {
+      "id": 3,
+      "name": "Denim Jacket",
+      "price": 69.99,
+      "image": "https://hifashionnepal.com.np/wp-content/uploads/2021/05/Navy-Blue-1.jpg",
+      "brand": "Denim Style",
+      "ratings": 4.3,
+      "colors": ["Blue", "Black", "White"],
+      "description": "A classic denim jacket for a versatile and timeless style."
+    },
+    {
+      "id": 4,
+      "name": "Hooded Windbreaker",
+      "price": 54.99,
+      "image": "https://static-01.daraz.com.np/p/21b24e0bd0f36f749b66c6463868df33.jpg",
+      "brand": "Outdoor Gear Co.",
+      "ratings": 4.2,
+      "colors": ["Black", "Green", "Navy"],
+      "description": "A lightweight hooded windbreaker for outdoor adventures."
+    },
+    {
+      "id": 5,
+      "name": "Faux Fur Coat",
+      "price": 119.99,
+      "image": "https://manofmany.com/wp-content/uploads/2016/06/Untitled-design-14-.png",
+      "brand": "Elegant Style",
+      "ratings": 4.7,
+      "colors": ["White", "Black", "Brown"],
+      "description": "A luxurious faux fur coat for a chic and glamorous look."
+    },
+    {
+      "id": 6,
+      "name": "Parka Jacket",
+      "price": 99.99,
+      "image": "https://static-01.daraz.com.np/p/3c6727c1401c38c1baabc1e140d6d910.jpg",
+      "brand": "Urban Explorer",
+      "ratings": 4.3,
+      "colors": ["Green", "Black", "Navy"],
+      "description": "A versatile parka jacket for urban exploration and cold weather."
+    }
+  ]
+}
