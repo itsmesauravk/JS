@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.about {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  background-color: #eef1ff;
+}
+.about-card {
+  display: flex;
+  justify-content: center;
+  gap: 6.5rem;
+  align-items: center;
+  width: 70%;
+  /* background-color: purple; */
+}
+.about-extras {
+  text-align: left;
+  font-size: 20px;
+}
+.extras-title {
+  font-size: 2.8rem;
+  font-weight: bolder;
+  color: #37306b;
+}
+img {
+  width: 500px;
+  height: 500px;
+  box-shadow: 3rem 3rem #aaaaaa;
+}
+
+button {
+  width: 160px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.4s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0f4c75;
+  color: #fff;
+}
