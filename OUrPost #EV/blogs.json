@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "image": "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/146898-phones-feature-the-best-apple-iphone-photos-ever-taken-image1-ydter7skel.jpg",
+      "title": "Lorem Ipsum Dolor Sit Amet",
+      "writer": "John Doe",
+      "date": "2023-10-03",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "highlight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+    },
+    {
+      "id": 2,
+      "image": "https://i.pinimg.com/originals/6f/ef/3f/6fef3f83983376cc0a90a1f36f913ba4.jpg",
+      "title": "Vestibulum Consectetur Ante Sit Amet",
+      "writer": "Jane Smith",
+      "date": "2023-09-28",
+      "content": "Vestibulum consectetur ante sit amet, ullamcorper feugiat...",
+      "highlight": "Vestibulum consectetur ante sit amet, ullamcorper feugiat."
+    },
+    {
+      "id": 3,
+      "image": "https://www.southernliving.com/thmb/XOCPpFwcsQBZ7eYnSAD5h3NuALI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-735896407-2000-50ed94160ae543f3af9b378b6ef0656c.jpg",
+      "title": "Sed Dapibus Egestas Nunc",
+      "writer": "David Johnson",
+      "date": "2023-09-25",
+      "content": "Sed dapibus egestas nunc, eget ultricies odio malesuada...",
+      "highlight": "Sed dapibus egestas nunc, eget ultricies odio malesuada."
+    },
+    {
+      "id": 4,
+      "image": "blog4.jpg",
+      "title": "Aenean Sodales Aliquet",
+      "writer": "Mary Williams",
+      "date": "2023-09-20",
+      "content": "Aenean sodales aliquet enim, in condimentum libero tincidunt...",
+      "highlight": "Aenean sodales aliquet enim, in condimentum libero tincidunt."
+    }
+  ]
+}
