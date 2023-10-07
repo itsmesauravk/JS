@@ -1,0 +1,40 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "icon": "https://i.etsystatic.com/19543171/r/il/ef095c/5060960514/il_570xN.5060960514_iyjw.jpg",
+      "name": "Item 1",
+      "details": "Details for Item 1 go here."
+    },
+    {
+      "id": 2,
+      "icon": "https://www.svgrepo.com/show/38705/location-pin.svg",
+      "name": "Item 2",
+      "details": "Details for Item 2 go here."
+    },
+    {
+      "id": 3,
+      "icon": "https://www.svgrepo.com/show/64170/bag-for-travel.svg",
+      "name": "Item 3",
+      "details": "Details for Item 3 go here."
+    },
+    {
+      "id": 4,
+      "icon": "https://www.svgrepo.com/show/173031/yacht.svg",
+      "name": "Item 4",
+      "details": "Details for Item 4 go here."
+    },
+    {
+      "id": 5,
+      "icon": "https://i.pinimg.com/736x/0b/6a/dc/0b6adca0126c1c0091a9e800635a8460.jpg",
+      "name": "Item 5",
+      "details": "Details for Item 5 go here."
+    },
+    {
+      "id": 6,
+      "icon": "https://www.svgrepo.com/show/45931/bus.svg",
+      "name": "Item 6",
+      "details": "Details for Item 5 go here."
+    }
+  ]
+}

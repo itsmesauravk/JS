@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.offers-title {
+  font-size: 50px;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 75%;
+  /* background: magenta; */
+  gap: 3rem;
+}
+
+.of-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 27.5rem;
+  height: 25rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  /* box-shadow: 2px 2px 4px blue; */
+}
+
+.of-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 45%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.of-image-div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+.of-extra {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 1rem;
+  align-items: center;
+  /* background-color: red; */
+  height: 35%;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 1rem;
+  font-size: 16px;
+}
+.of-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+.of-price {
+  font-size: 22px;
+  color: #245953;
+  font-weight: 600;
+}
